@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'auth.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -85,6 +87,10 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const OAuth2InputForm(
+              scopes: [],
+              state: "",
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
