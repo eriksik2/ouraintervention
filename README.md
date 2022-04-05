@@ -1,16 +1,10 @@
-# ouraintervention
+# OuraIntervention
+This project is partially based on https://github.com/amino-health/quantify-app
 
-A new Flutter project.
+# Installation
+## Flutter and dart
+Flutter and dart needs to be installed to run this code.  
+Instructions for this can be found at https://flutter.dev/docs/get-started/install
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Oura Application Page
+The Oura Application page for this app, which is needed for integraion with Oura and usage of their API, is at https://cloud.ouraring.com/oauth/applications/Q4EDXKDK2244IHFU
